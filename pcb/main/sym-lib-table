@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ATSAMD)(type Legacy)(uri ${KIPRJMOD}/ATSAMD_lib/2021-11-09_14-25-42.lib)(options "")(descr Microcontroller))
+  (lib (name LP3990MF-3.3/NOPB)(type Legacy)(uri ${KIPRJMOD}/LP3990MF-3.3NOPB/2021-11-09_14-55-52.lib)(options "")(descr "Linear voltage regulator Out: 3.3V"))
+)
