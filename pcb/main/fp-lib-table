@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name USB_C_Receptacle)(type KiCad)(uri /home/halvbjo/Projects/Etch-a-Sketch-mouse/pcb/main/USB_C_receptacle/footprints.pretty)(options "")(descr ""))
+  (lib (name ATSAMD)(type KiCad)(uri /home/halvbjo/Projects/Etch-a-Sketch-mouse/pcb/main/ATSAMD21E18A-AF/footprints.pretty)(options "")(descr ""))
+  (lib (name Switching_reg)(type KiCad)(uri /home/halvbjo/Projects/Etch-a-Sketch-mouse/pcb/main/LP3990MF-3.3NOPB/footprints.pretty)(options "")(descr ""))
+)

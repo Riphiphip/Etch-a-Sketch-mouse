@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name ATSAMD)(type Legacy)(uri ${KIPRJMOD}/ATSAMD_lib/2021-11-09_14-25-42.lib)(options "")(descr Microcontroller))
+  (lib (name ATSAMD)(type Legacy)(uri /home/halvbjo/Projects/Etch-a-Sketch-mouse/pcb/main/ATSAMD21E18A-AF/2021-11-15_09-40-07.lib)(options "")(descr Microcontroller))
   (lib (name LP3990MF-3.3/NOPB)(type Legacy)(uri ${KIPRJMOD}/LP3990MF-3.3NOPB/2021-11-09_14-55-52.lib)(options "")(descr "Linear voltage regulator Out: 3.3V"))
+  (lib (name USB_C_Receptacle)(type Legacy)(uri /home/halvbjo/Projects/Etch-a-Sketch-mouse/pcb/main/USB_C_receptacle/2021-11-22_15-49-56.lib)(options "")(descr ""))
 )
