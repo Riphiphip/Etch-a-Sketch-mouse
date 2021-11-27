@@ -116,12 +116,12 @@ S 700  4300 1150 950
 U 61A5053E
 F0 "UI.sch" 50
 F1 "UI.sch" 50
-F2 "RC_Left_A" O R 1850 4400 50 
-F3 "RC_Left_B" O R 1850 4500 50 
+F2 "RC_Left_A" O R 1850 4500 50 
+F3 "RC_Left_B" O R 1850 4400 50 
 F4 "SW_Left" O R 1850 4600 50 
-F5 "RC_Right_A" O R 1850 4950 50 
+F5 "RC_Right_A" O R 1850 5150 50 
 F6 "RC_Right_B" O R 1850 5050 50 
-F7 "SW_Right" O R 1850 5150 50 
+F7 "SW_Right" O R 1850 4950 50 
 $EndSheet
 Wire Wire Line
 	1850 4400 2000 4400
@@ -445,12 +445,6 @@ $EndComp
 Connection ~ 8550 3600
 Wire Wire Line
 	8550 3600 8800 3600
-Wire Wire Line
-	6800 4350 6700 4350
-Wire Wire Line
-	6700 4350 6700 3800
-Wire Wire Line
-	6700 3800 5650 3800
 Text Notes 6950 4250 0    50   ~ 0
 Digital pin breakout\n
 Wire Notes Line
@@ -485,5 +479,17 @@ F 2 "" H 8300 1700 50  0001 C CNN
 F 3 "" H 8300 1700 50  0001 C CNN
 	1    8300 1700
 	0    -1   -1   0   
+$EndComp
+NoConn ~ 5650 3800
+$Comp
+L power:GND #PWR?
+U 1 1 619E6C31
+P 6800 4350
+F 0 "#PWR?" H 6800 4100 50  0001 C CNN
+F 1 "GND" V 6700 4350 50  0000 R CNN
+F 2 "" H 6800 4350 50  0001 C CNN
+F 3 "" H 6800 4350 50  0001 C CNN
+	1    6800 4350
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

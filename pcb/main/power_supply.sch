@@ -348,7 +348,7 @@ F 1 "Jumper" H 7150 4073 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 3900 50  0001 C CNN
 F 3 "~" H 7150 3900 50  0001 C CNN
 	1    7150 3900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP1

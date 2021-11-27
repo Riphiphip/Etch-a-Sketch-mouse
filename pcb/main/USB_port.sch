@@ -206,10 +206,6 @@ Wire Wire Line
 Connection ~ 5150 3450
 Text HLabel 4900 3450 0    50   Output ~ 0
 V_USB
-Wire Wire Line
-	5150 2950 4500 2950
-Wire Wire Line
-	4500 2950 4500 4700
 $Comp
 L Device:R R?
 U 1 1 619CBBAA
@@ -261,4 +257,11 @@ Wire Wire Line
 	5000 2350 5150 2350
 Wire Wire Line
 	4900 3450 5150 3450
+Wire Wire Line
+	5150 2900 4500 2900
+Wire Wire Line
+	4500 2900 4500 4700
+NoConn ~ 5150 2800
+NoConn ~ 5150 3000
+NoConn ~ 5150 3100
 $EndSCHEMATC
